@@ -13,3 +13,7 @@ If you would like to login into a site run the following command for one time lo
 ```
   docker exec -it drupal drush uli
 ```
+
+```
+docker run -ti -v $(pwd):/drupal tanarurkerem/drupal
+```
